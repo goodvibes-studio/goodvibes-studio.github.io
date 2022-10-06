@@ -1,0 +1,30 @@
+/* hero */
+
+.hero {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #F7F4F0;
+}
+
+
+/* ground */
+.ground {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 95.84%;
+    bottom: -0.02%;
+    background: linear-gradient(180deg, #5F5050 0%, #BB955D 100%);
+    z-index: 2;
+}
+
+/* grass */
+.grass {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 89.16%;
+    bottom: -0.02%;
+    background: linear-gradient(180deg, #C0D780 0%, #89BD69 55.21%, #77A958 100%);
+}
